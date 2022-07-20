@@ -1,0 +1,33 @@
+:root{
+    --text-white: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: var(--text-white);
+}
+
+.header-menu>li{
+    cursor: pointer;
+}
+
+.header-menu>li:hover{
+    transition: 0.2s ease-in-out;
+    color: var(--orange);
+    cursor: pointer;
+    filter: drop-shadow(0 1mm 2mm var(--orange));
+    filter: brightness(125%);
+    border-left: 1px solid var(--orange);
+}
