@@ -11,7 +11,6 @@ import Calories from '../../assets/calories.png'
 const Hero = () => {
   return (
     <div className="hero">
-      <h1>40,17 minuto</h1>
       <div className="left-h">
         <Header />
 
